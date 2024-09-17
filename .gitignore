@@ -1,6 +1,6 @@
 # Prerequisites
 *.d
-
+*.json
 # Compiled Object files
 *.slo
 *.lo
@@ -25,6 +25,7 @@
 *.la
 *.a
 *.lib
+*.vscode
 
 # Executables
 *.exe
