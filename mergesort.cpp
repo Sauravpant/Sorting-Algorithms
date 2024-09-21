@@ -5,9 +5,9 @@ void merge(int arr[], int l, int m, int r) {
     int n1 = m - l + 1;
     int n2 = r - m;
     int L[n1], R[n2];
-    for (int i = 0; i < n1; ++i)
+    for (int i = 0; i < n1; i++)
         L[i] = arr[l + i];
-    for (int i = 0; i < n2; ++i)
+    for (int i = 0; i < n2; i++)
         R[i] = arr[m + 1 + i];
 
     int i = 0, j = 0, k = l;
@@ -46,7 +46,7 @@ int main() {
     int arr[] = {12, 11, 13, 5, 6, 7};
     int n = sizeof(arr) / sizeof(arr[0]);
     mergeSort(arr, 0, n - 1);
-    for (int i = 0; i < n; ++i) {
+    for (int i = 0; i < n; i++) {
         cout << arr[i] << " ";
     }
     return 0;
