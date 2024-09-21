@@ -25,7 +25,7 @@
 *.la
 *.a
 *.lib
-*.vscode
+*.vscode/
 
 # Executables
 *.exe
